@@ -9,3 +9,30 @@ p,a{
 }
 $text-primary: #303036;
 $text-secondary: #fffaff;
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10% 1em 10%;
+	background-color: #303036;
+	h2{
+		color: #30BCED; 
+	}
+	p, li{
+		color: #FFFAFF;
+	}
+	.socialMedia__list{
+		display: flex;
+	}
+	.socialMedia__icon{
+		font-size: 1.5em;
+		margin-right: .5em;
+	}
+}
