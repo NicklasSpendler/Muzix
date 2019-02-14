@@ -1,7 +1,15 @@
-
 body{
-	margin: 0;
+    margin: 0;
 }
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+p,a{
+    font-family: 'Open Sans', sans-serif;
+}
+$text-primary: #303036;
+$text-secondary: #fffaff;
+
 ul{
 	margin: 0;
 	padding: 0;

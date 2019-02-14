@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+p, a {
+  font-family: "Open Sans", sans-serif;
+}
+
+.banner {
+  position: relative;
+}
+.banner__imgcontainer {
+  width: 100%;
+  height: 80vh;
+}
+.banner__img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.banner__textcontent {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.banner__textcontent-header {
+  color: #fffaff;
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
