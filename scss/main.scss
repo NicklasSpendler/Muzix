@@ -64,3 +64,23 @@ $text-secondary: #fffaff;
         font-size: 3rem;
     }
 }
+.beskrivelse{
+	width: 70%;
+	margin: 2em auto;
+}
+.instrumentgallery{
+	margin: 0 auto;
+	width: 80%;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	&__item{
+	}
+	&__imgcontainer{
+		img{
+			height: 100%;
+			width: 100%;
+			display: block;
+			object-fit: cover;
+		}
+	}
+}
