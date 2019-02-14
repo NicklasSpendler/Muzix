@@ -64,3 +64,15 @@ $text-secondary: #fffaff;
         font-size: 3rem;
     }
 }
+
+
+.formContainer{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+textarea{
+	resize: none;
+}
