@@ -61,4 +61,17 @@
   font-size: 3rem;
 }
 
+.wrapper {
+  margin: 0 10%;
+}
+
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+.article__img {
+  width: 50%;
+}
+
 /*# sourceMappingURL=main.css.map */
