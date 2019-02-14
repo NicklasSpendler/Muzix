@@ -1,0 +1,30 @@
+@import "shared.scss";
+
+.banner{
+    position: relative;
+    &__imgcontainer{
+        width: 100%;
+        height: 80vh;
+    }
+    &__img{
+        height: 100%;
+        width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+    &__textcontent{
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .3)
+    }
+    &__textcontent-header{
+        color: $text-secondary;
+        font-size: 3rem;
+    }
+}
