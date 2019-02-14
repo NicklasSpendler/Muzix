@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10% 1em 10%;
+  background-color: #303036;
+}
+footer h2 {
+  color: #30BCED;
+}
+footer p, footer li {
+  color: #FFFAFF;
+}
+footer .socialMedia__list {
+  display: flex;
+}
+footer .socialMedia__icon {
+  font-size: 1.5em;
+  margin-right: 0.5em;
+}
+
+/*# sourceMappingURL=shared.css.map */
